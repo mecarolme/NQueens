@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>N QUEENS</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>N Queens Problem</h1>
+
+    <section id="tab"></section>
+
+    <fieldset>
+      <legend>Opções</legend>
+      <div class="sizeChoice">
+        <label for="TabTamanhos">Tamanho: </label>
+        <input type="number" id="TabTamanhos" min="4" max="8" value="8">
+      </div>
+
+      <div class="controles">
+        <button id="btnClean">Limpar</button>
+        <button id="btnSolution">Solução</button>
+      </div>
+
+    </fieldset>
+
+    <div id="msgs"></div>
+  </main>
+
+  <script src="icon.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
